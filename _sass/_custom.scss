@@ -34,6 +34,8 @@ body {
 html {
   font-size: 100%; }
 
-.navbar a{
-    font-family: 'Poppins', sans-serif !important;
+.navbar-nav a{
+    font-family: 'Oxygen', sans-serif !important;
+    z-index: 10000;
+    overflow: visible !important;
 }
