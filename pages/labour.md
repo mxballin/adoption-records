@@ -6,15 +6,20 @@ permalink: /labour.html
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-
+<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Explore Themes: Labour</li>
+  </ol>
+</nav>
 # Work & Labour Conditions
 
 {% include feature/nav-menu.html sections="Sugar Beet Farms; Additional Sources of Work; Geography and Climate; Describing Work in Letters" %}
 
 ## Sugar Beet Farms
 
-<p style="text-indent: 25px;"> Much of the work done by the families of the correspondents centres around sugar beet farming. The “option” to work on sugar beet farms provided an important opportunity for Japanese Canadian families to experience their forced removal from B.C. together rather than apart--options such as work camps were highly gendered in nature and led to the separation of men from women and children. According to scholars, this benefit of togetherness-in-forced-dispersal was something that was highly emphasized by the Canadian government when the sugar beet farming was presented to families <sup>1</sup></p>
-<p style="text-indent: 25px;"> Once they had agreed to the work and arrived in Alberta and Manitoba, Japanese Canadian families were met with incredibly poor living conditions, very little pay, and weather that dramatically affected their ability to work. However, although in some instances they had been promised relative freedom of movement, Shelley Ketchell notes, “it is clear that once they committed to the program, the choices were no longer their own. Choices, instead, became dictated by negotiations between the [British Columbia Security Commission] and towns and cities in Alberta and Manitoba”<sup>2</sup> </p>
+<p style="text-indent: 25px;"> Much of the work done by the families of the correspondents centres around sugar beet farming. The “option” to work on sugar beet farms provided an important opportunity for Japanese Canadian families to experience their forced removal from B.C. together rather than apart--options such as work camps were highly gendered in nature and led to the separation of men from women and children. According to scholars, this benefit of togetherness-in-forced-dispersal was something that was highly emphasized by the Canadian government when the sugar beet farming was presented to families <sup>1</sup>.</p>
+<p style="text-indent: 25px;"> Once they had agreed to the work and arrived in Alberta and Manitoba, Japanese Canadian families were met with incredibly poor living conditions, very little pay, and weather that dramatically affected their ability to work. However, although in some instances they had been promised relative freedom of movement, Shelley Ketchell notes, “it is clear that once they committed to the program, the choices were no longer their own. Choices, instead, became dictated by negotiations between the [British Columbia Security Commission] and towns and cities in Alberta and Manitoba”<sup>2</sup>. </p>
 
 <div class="container">
   <div class="row justify-content-center">
@@ -34,9 +39,11 @@ permalink: /labour.html
   <div class="row">
     <div class="col-sm-6 my-auto">
 
-<p style="text-indent: 25px;">There are many stages to beet farming, each of which requires a significant amount of work. Activities that the correspondents mention having to carry out included planting, thinning, hoeing, and harvesting--which in and of itself has a variety of stages including pulling, piling, topping, and loading. </p>
+    <p style="text-indent: 25px;">There are many stages to beet farming, each of which requires a significant amount of work. Activities that the correspondents mention having to carry out included planting, thinning, hoeing, and harvesting--which in and of itself has a variety of stages including pulling, piling, topping, and loading. </p>
 
-{% include feature/blockquote.html text="To [top] this sugar beet we use a heavy knife with a curved hook at the end to pick it up. This we could only do about 1/2 acre a day or less. To every ton of beets topped we get $1.25 to 8 tons of beet topped and to anything over 8 tons an acre we get 1.00 per ton." author="Tad Nagamori" citation="Letter to Joan Gillis, October 4, 1942" %}
+    {% include feature/blockquote.html text="To [top] this sugar beet we use a heavy knife with a curved hook at the end to pick it up. This we could only do about 1/2 acre a day or less. To every ton of beets topped we get $1.25 to 8 tons of beet topped and to anything over 8 tons an acre we get 1.00 per ton." author="Tad Nagamori" citation="Letter to Joan Gillis, October 4, 1942" %}
+
+    <p style="text-indent: 25px;">Farming in general is highly seasonal and doesn't offer much flexibility if the crop is to be successful. As a result, many of the correspondents who were able to remain in school often had to sacrifice weeks or months of their education so that they could help their families complete the harvest. You can learn more about the education of our correspondents on the <a href='https://ubc-library-rbsc.github.io/gillis-2021/education.html'>'Education' page.</a></p>
      </div>
     <div class="col-sm-6">
 {% include feature/card.html header="Topping Knife" text="A topping knife that belonged to Roy and Lillie Yano, now held at the Nikkei National Museum (2013.57.3.4). Topping involves taking the green leaves off of the top of the sugar beet." objectid="https://nikkeimuseum.org/files/nikkeImgFMP12/JCNM%20Database/files/ARTEFACT/Image_Image%201/27336/2013-57-3-4.jpg" width="100" centered=true %}
@@ -47,7 +54,7 @@ permalink: /labour.html
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-8">
-      {% include feature/alert.html text="<small>To read more of what correspondents wrote about the experiences working on beet farms, check out the <a href='https://ubc-library-rbsc.github.io/gillis-2021_ohd/subjects.html?filter=Beet-farms'>subject visualization page.</a></small>" color="info" align="center"%}
+      {% include feature/alert.html text="<small>To read more of what correspondents wrote about the experiences working on beet farms and elsewhere, check out the <a href='https://ubc-library-rbsc.github.io/gillis-2021_ohd/subjects.html?filter=Labour-conditions'>'Labour conditions' tag on the subject visualization page.</a></small>" color="info" align="center"%}
     </div>
   </div>
 </div>
@@ -58,10 +65,10 @@ permalink: /labour.html
 	<div class="row">
     <div class="col-md-6 my-auto">
       <p style="text-indent: 25px;">Not all forcibly displaced families worked sugar beet farms. Albert Ohama's family, for example, worked on a farm that appears from the letters to have had cows and horses and required the family to cut about 30 acres of hay. Although different from sugar beet farming, this work was no less grueling and still took up nearly all of the family's time<sup>5</sup>.</p>
-      <p style="text-indent: 25px;"> Be it sugar beets or other field work, the wages paid to forcibly displaced Japanese Canadians for working these farms was not enough for families to make ends meet, especially if they were trying to pay for school. Family members ended up having to find other ways to make money within the bounds of the restrictions placed upon their movement and labour by the Canadian government. For some, this involved doing other work for their “boss” or helping out on larger farms that were being worked by other families. Other times this involved finding other types of work away from where their families were forced to live. Several of the correspondents note that members of their family, other forcibly displaced Japanese Canadians, or they themselves were either thinking about or did travel eastward to find other work.</p>
+      <p style="text-indent: 25px;"> Be it sugar beets or other field work, the wages paid to Japanese Canadians for working these farms was not enough for families to make ends meet, especially if they were trying to pay for school. Family members ended up having to find other ways to make money within the bounds of the restrictions placed upon their movement and labour by the Canadian government. For some, this involved doing other work for their “boss” or helping out on larger farms that were being worked by other families. Other times this involved finding other types of work away from their families. Several of the correspondents note that members of their family, other Japanese Canadians, or they themselves were either thinking about or did travel eastward to find other work.</p>
     </div>
 		<div class="col-md-6">
-      {% include feature/card.html text="<small>Image description: Yoshio Nakamura [left], Jackie Takahashi [right], and another Japanese Canadian boy riding a tractor. </small> <br> Some forcibly displaced families were able to take on additional work helping other families they knew from B.C. <br>In one letter to Joan, Jackie mentions, 'We finished thinning on Tuesday, July 1 around 4 P.M. We went up to Yosh’s place to help them thin their beets for a couple of days.'<sup>6</sup>" objectid="https://library-rbsc-2017.sites.olt.ubc.ca/files/2021/08/RBSC_ARC_1786_Photographs-2-5-test.jpg" width="100" centered=true %}
+      {% include feature/card.html text="<small>Image description: Yoshio Nakamura [left], Jackie Takahashi [right], and another Japanese Canadian boy riding a tractor. </small><br>Some families were able to take on additional work helping other families they knew from B.C. In one letter to Joan, Jackie mentions, 'We finished thinning on Tuesday, July 1 around 4 P.M. We went up to Yosh’s place to help them thin their beets for a couple of days.'<sup>6</sup>" objectid="https://library-rbsc-2017.sites.olt.ubc.ca/files/2021/08/RBSC_ARC_1786_Photographs-2-5-test.jpg" width="100" centered=true %}
 		</div>
 	</div>
 </div>
@@ -92,7 +99,7 @@ permalink: /labour.html
 
 <p style="text-indent: 25px;"> They also seemed to try to shield Joan from the worst of the conditions they were being forced to endure. The backbreaking labour of farming and the incredibly long hours that it required often left them with little energy to write, yet so many of them focused on hoping that Joan would forgive them for not having written back sooner, never mind the fact that the reason they hadn't was because of the monopoly that the work held over their time.</p>
 
-<p style="text-indent: 25px;"> While much of the letters demonstrate how youthful these correspondents were, the manner in which they communicated their situations to Joan shows the maturity they were forced to develop when they were forcibly displaced. Making the best of a bad situation, they used their letters to hold onto their youth, but also could not help but omit some of the harshest elements of their experiences in acknowledgement of Joan's greater innocence back home.</p>
+<p style="text-indent: 25px;"> While many of the letters demonstrate how youthful these correspondents were, the manner in which they communicated their situations to Joan shows the maturity they were forced to develop when they were forcibly displaced. Making the best of a bad situation, they used their letters to hold onto their youth, but also could not help but omit some of the harshest elements of their experiences in acknowledgement of Joan's greater innocence back home.</p>
 
 <small> Citations </small> <br>
 <small>1. Shelly D. Ketchell, “Re-locating Japanese Canadian History: Sugar Beet Farms as Carceral Sites in Alberta and Manitoba, February 1942 – January 1943,” (MA Thesis, University of British Columbia, 2005), 99.</small> <br>
