@@ -35,7 +35,7 @@ Rocky Mountain House, Alberta is on the traditional territories of the Métis, N
 
 ## Terminology
 
-<div class="table-responsive mh-auto">
+<div class="table-responsive mx-auto px3">
 <table class="table">
   <thead class="thead-light">
     <tr>
