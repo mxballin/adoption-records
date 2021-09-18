@@ -2,9 +2,7 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap'); 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
 
 h1,
 h2,
@@ -18,14 +16,14 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
 
 body {
-  font-family: 'Spectral', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   line-height: 1.42857143;
   color: #333333;
