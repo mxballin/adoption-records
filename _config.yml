@@ -20,14 +20,14 @@ source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: I Know We'll Meet Again
+title: How Do We Pronounce Our Skin in English
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Correspondence and the forced dispersal of Japanese Canadians
+tagline: Records of adoption and their impact on adoptee identity construction
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This digital exhibition on Japanese Canadian forced dispersal and internment features materials from the Joan Gillis fonds, housed at the University of British Columbia Library's Rare Books and Special Collections."
+description: "This website is the home base for the thesis research of MLIS/MAS Candidate Mya Ballin"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Mya Ballin and Sasha Gaylie
+author: Mya Ballin
 
 ##########
 # COLLECTION SETTINGS
