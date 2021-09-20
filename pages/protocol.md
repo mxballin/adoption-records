@@ -24,5 +24,3 @@ permalink: /protocol.html
 <p>In this element of the interview process, participants will be asked to respond to excerpts from these two authors and voice the similarities or differences of their experiences and thoughts.</p>
 
 <h2>Distress Protocol<h2>
-  
-  <div class="arrow"> Test </div>
