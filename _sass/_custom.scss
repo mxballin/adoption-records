@@ -209,6 +209,7 @@ html {
   }
 }
 
+arrow,
 .arrow {
   @include css-arrow(10px, 3px, #c8e7f1, #97d4e8, bottom);
 }
