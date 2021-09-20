@@ -1,7 +1,7 @@
 // CSS Arrow Mixin
 // By: Jerry Low
 
-mixin css-arrow($height: 10px, $border: 2px, $color: #fff, $border-color: #000, $direction: bottom, $outside: true) {
+@mixin css-arrow($height: 10px, $border: 2px, $color: #fff, $border-color: #000, $direction: bottom, $outside: true) {
   $border-shift: $border;
 
   @if $border > 0 {
@@ -153,4 +153,8 @@ mixin css-arrow($height: 10px, $border: 2px, $color: #fff, $border-color: #000, 
 
     border-width: $height + $border;
   }
+}
+
+.arrow {
+  @include css-arrow(10px, 3px, #c8e7f1, #97d4e8, bottom);
 }
