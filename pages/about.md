@@ -19,15 +19,6 @@ credits: true
   
 <h4>Land Acknowledgements</h4>
 
-## Terminology
-
-<div class="container">
-	<div class="row">
-		 <div class="col-md-10 mx-auto">
-		{% include feature/table.html %}
-		</div>
-	</div>
-	</div>
 
 ## About the Research Team
 
