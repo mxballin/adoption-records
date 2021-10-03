@@ -23,6 +23,10 @@ permalink: /protocol.html
 <p>Alongside a fairly large body of adoption research and scholarship, there is also a significant amount of creative nonfiction and fiction that centres the adoptee experience. Some of these works explicitly focus on the presence and absense of records, notably the poetry and writings of Sun Yun Shin and the graphic novel, <i>Palimpsest</i> by Lisa Wool-Rim Sjöblom</p>
 <p>In this element of the interview process, participants will be asked to respond to excerpts from these two authors and voice the similarities or differences of their experiences and thoughts.</p>
 
+<h2>Recording of Consent</h2>
+<p>Carter, et al. (2021) note that the recording of consent in the context of online research can lead to varying challenges due to the process being entirely virtual. Per their recommendation, consent will be acquired </p>
+
+
 <h2>Distress Protocol</h2>
 <em>Modified from: Haigh & Witham. "Distress Protocol for qualitative data collection." Manchester Metropolitan University (2015).</em>
 
