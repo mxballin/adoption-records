@@ -31,6 +31,8 @@ In order to limit the number of meetings required of participants, recording of 
 
 {% include feature/consent-table.html %}
 
+<h4>Followup</h4>
+
 Reference: Carter, .M., Shih, P., Williams, J. et al. Conducting Qualitative Research Online: Challenges and Solutions. Patient (2021). https://doi.org/10.1007/s40271-021-00528-w
 
 
