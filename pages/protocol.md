@@ -29,7 +29,7 @@ permalink: /protocol.html
 <h4>Process</h4>
 In order to limit the number of meetings required of participants, recording of consent will by default occur at the start of the first scheduled interview session.  However, if it is the preference of the participant to have a separate introductory session that will allow for real-time addressal of questions and concerns, this option will be made available to them.
 
-{% include feature/consentflowchart.html %}
+{% include feature/consent-table.html %}
 
 Reference: Carter, .M., Shih, P., Williams, J. et al. Conducting Qualitative Research Online: Challenges and Solutions. Patient (2021). https://doi.org/10.1007/s40271-021-00528-w
 
