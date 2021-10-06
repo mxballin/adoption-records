@@ -24,7 +24,7 @@ permalink: /protocol.html
 <p>In this element of the interview process, participants will be asked to respond to excerpts from these two authors and voice the similarities or differences of their experiences and thoughts.</p>
 
 <h2>Recording of Consent</h2>
-<p>Carter, et al. (2021) note that the recording of consent in the context of online research can lead to varying challenges due to the process being entirely virtual. Following their arguments that written consent formats can be complicating, restrictive, and potentially introduce security concerns, the format for seeking and recording consent for this study will be done verbally.</p>
+<p>Carter, et al. (2021) note that the recording of consent in the context of online research can lead to varying challenges due to the process being entirely virtual. Following their arguments that written consent formats can be complicating, restrictive, and potentially introduce security concerns, the default format for seeking and recording consent for this study will be done verbally. However, if it is the preference of the participant to use a written consent form, the form will be made available to them.</p>
 
 <h4>Process</h4>
 In order to limit the number of meetings required of participants, recording of consent will by default occur at the start of the first scheduled interview session.  However, if it is the preference of the participant to have a separate introductory session that will allow for real-time addressal of questions and concerns, this option will be made available to them.
