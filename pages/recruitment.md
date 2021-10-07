@@ -6,10 +6,8 @@ permalink: /recruitment.html
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-We are currently in the recruitment phase of the study.
+We are currently in the recruitment phase of the study!
 
-As this study is for a Master's thesis, there are limits to its scope. We are specifically looking for English-speaking Chinese & Korean transracial adoptees to participate.
+As this study is for a Master's thesis, there are limits to its scope and we are unfortunately not able to include the incredible diversity of adoptee voices that we know are out there and would love to engage with. We are specifically looking for English-speaking Chinese & Korean transracial, transnational adoptees to participate.
 
-If you decide to participate, your involvement would consist of
-[INSERT INTERVIEW INFO] where you will be asked to share about
-your adoption, your sense of cultural and racial identity/identities, your knowledge of records related to your adoption, and if and how you have interacted with or created records of this nature.
+For information about what you would be asked to do as a participant, check out the <a href="https://adoption-records.mxballin.com/protocol.html">interview protocol page</a>.
