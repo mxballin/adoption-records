@@ -31,12 +31,14 @@ In order to limit the number of meetings required of participants, recording of 
 
 {% include feature/consent-table.html %}
 
-<h4>Followup</h4>
-
-Reference: Carter, .M., Shih, P., Williams, J. et al. Conducting Qualitative Research Online: Challenges and Solutions. Patient (2021). https://doi.org/10.1007/s40271-021-00528-w
-
 
 <h2>Distress Protocol</h2>
-<em>Modified from: Haigh & Witham. "Distress Protocol for qualitative data collection." Manchester Metropolitan University (2015).</em>
+<em>Modified from: Haigh & Witham (2015).</em>
 
 {% include feature/interview-table.html %}
+
+References
+
+Carter, .M., Shih, P., Williams, J. et al. Conducting Qualitative Research Online: Challenges and Solutions. Patient (2021). https://doi.org/10.1007/s40271-021-00528-w
+
+Haigh, C. & G. Witham. "Distress Protocol for qualitative data collection." Manchester Metropolitan University. (2015) https://www.mmu.ac.uk/media/mmuacuk/content/documents/rke/Advisory-Distress-Protocol.pdf
