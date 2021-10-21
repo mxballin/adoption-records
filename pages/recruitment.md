@@ -12,4 +12,4 @@ As this study is for a Master's thesis, there are limits to its scope and we are
 
 For information about what you would be asked to do as a participant, check out the <a href="https://adoption-records.mxballin.com/protocol.html">interview protocol page</a>.
 
-If you are interested in participating, please email Mya Ballin at mailto:mya.ballin@ubc.ca.
+If you are interested in participating, please email Mya Ballin at <a href="mailto:mya.ballin@ubc.ca">mya.ballin@ubc.ca</a>.
