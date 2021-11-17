@@ -21,6 +21,9 @@ permalink: /protocol.html
 In order to limit the number of meetings required of participants, recording of consent will by default occur at the start of the first scheduled interview session.  However, if it is the preference of the participant to have a separate introductory session that will allow for real-time addressal of questions and concerns, this option will be made available to them.
 
 {% include feature/consent-table.html %}
+</div>
+<div class="vr"></div>
+ <div class="col-md-6 my-auto">
 
 <h3>Interviews</h3>
 
@@ -36,6 +39,8 @@ In order to limit the number of meetings required of participants, recording of 
 
 <p>In this element of the interview process, participants will be asked to respond to excerpts from these two authors and consider the similarities or differences of their experiences and thoughts.</p>
 
+</div>
+</div>
 </div>
 
 <h2>Distress Protocol</h2>
