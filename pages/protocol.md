@@ -10,7 +10,21 @@ permalink: /protocol.html
 
 <h2>Participation Structure</h2>
 
-<h4>Interviews</h4>
+<h3>Recording of Consent</h3>
+<p>Carter, et al. (2021) note that the recording of consent in the context of online research can lead to varying challenges due to the process being entirely virtual. Following their arguments that written consent formats can be complicating, restrictive, and potentially introduce security concerns, the default format for seeking and recording consent for this study will be done verbally. However, if it is the preference of the participant to use a written consent form, the form will be made available to them.</p>
+
+<h4>Process</h4>
+In order to limit the number of meetings required of participants, recording of consent will by default occur at the start of the first scheduled interview session.  However, if it is the preference of the participant to have a separate introductory session that will allow for real-time addressal of questions and concerns, this option will be made available to them.
+
+{% include feature/consent-table.html %}
+
+
+<h3>Distress Protocol</h3>
+<em>Modified from: Haigh & Witham (2015).</em>
+
+{% include feature/interview-table.html %}
+
+<h3>Interviews</h3>
 
 <p>Participants will be interviewed in a semi-structured manner, with the focus being on how they tell their adoption 'story,' how they construct their cultural and racial identity/ies, and where records fit into that narrative.</p>
 
@@ -20,22 +34,9 @@ permalink: /protocol.html
 
 <h4>Literature Response</h4>
 
-<p>Alongside a fairly large body of adoption research and scholarship, there is also a significant amount of creative nonfiction and fiction that centres the adoptee experience. Some of these works explicitly focus on the presence and absense of records, notably the poetry and writings of Sun Yun Shin and the graphic novel, <i>Palimpsest</i> by Lisa Wool-Rim Sjöblom</p>
-<p>In this element of the interview process, participants will be asked to respond to excerpts from these two authors and voice the similarities or differences of their experiences and thoughts.</p>
+<p>Alongside a fairly large body of adoption research and scholarship, there is also a significant amount of creative nonfiction and fiction that centres the adoptee experience. Some of these works explicitly focus on the presence and absense of records, notably the poetry and writings of Sun Yun Shin and the graphic novel, <i>Palimpsest</i> by Lisa Wool-Rim Sjöblom.</p>
 
-<h2>Recording of Consent</h2>
-<p>Carter, et al. (2021) note that the recording of consent in the context of online research can lead to varying challenges due to the process being entirely virtual. Following their arguments that written consent formats can be complicating, restrictive, and potentially introduce security concerns, the default format for seeking and recording consent for this study will be done verbally. However, if it is the preference of the participant to use a written consent form, the form will be made available to them.</p>
-
-<h4>Process</h4>
-In order to limit the number of meetings required of participants, recording of consent will by default occur at the start of the first scheduled interview session.  However, if it is the preference of the participant to have a separate introductory session that will allow for real-time addressal of questions and concerns, this option will be made available to them.
-
-{% include feature/consent-table.html %}
-
-
-<h2>Distress Protocol</h2>
-<em>Modified from: Haigh & Witham (2015).</em>
-
-{% include feature/interview-table.html %}
+<p>In this element of the interview process, participants will be asked to respond to excerpts from these two authors and consider the similarities or differences of their experiences and thoughts.</p>
 
 References
 
