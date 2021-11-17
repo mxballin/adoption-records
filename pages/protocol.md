@@ -8,11 +8,7 @@ permalink: /protocol.html
 
 <p>The following is information about my interview protocol and procedures of care that I have built into my interview process in order to ensure that subjects feel comfortable and empowered throughout their involvement in the project.</p>
 
-<h2>Participation Structure</h2>
-
-<div class="d-flex flex-row">
-<div class="p-2">
-<h3>Recording of Consent</h3>
+<h2>Recording of Consent</h2>
 <p>Carter, et al. (2021) note that the recording of consent in the context of online research can lead to varying challenges due to the process being entirely virtual. Following their arguments that written consent formats can be complicating, restrictive, and potentially introduce security concerns, the default format for seeking and recording consent for this study will be done verbally. However, if it is the preference of the participant to use a written consent form, the form will be made available to them.</p>
 
 <h4>Process</h4>
@@ -23,7 +19,7 @@ In order to limit the number of meetings required of participants, recording of 
 <div class="vr"></div>
 <div class="p-2">
 
-<h3>Interviews</h3>
+<h2>Interviews</h2>
 
 <p>Participants will be interviewed in a semi-structured manner, with the focus being on how they tell their adoption 'story,' how they construct their cultural and racial identity/ies, and where records fit into that narrative.</p>
 
@@ -42,9 +38,6 @@ In order to limit the number of meetings required of participants, recording of 
 I am interested in investigating an aspect of people’s lives that can be quite sensitive and presents the real possibility of making someone uncomfortable. While the purpose is liberatory, and to create a greater understanding of how archivists can address issues of alienation in the context of government record creation and access, I acknowledge that it is potentially emotionally charged subject matter that not everyone will be unaffected by, even if they are the type of person who has “come to terms” with their adoption. One way in which I hope to mitigate this is through the adaptation and adoption of a distress protocol for the interview process such as those proposed by Haigh & Witham (2015) . I will not have an extensive array of resources or professionals at my disposal or employ, but making sure that I provide adequate resources before and after the interview, as well as take care to be aware of when an interviewee needs a break and having a protocol for how that can happen over Zoom will be incredibly important steps towards making the interview space as safe as possible.
 
 {% include feature/interview-table.html %}
-
-</div>
-</div>
 
 References
 
