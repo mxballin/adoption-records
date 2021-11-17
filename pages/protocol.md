@@ -10,10 +10,8 @@ permalink: /protocol.html
 
 <h2>Participation Structure</h2>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-
+<div class="d-flex flex-row">
+<div class="p-2">
 <h3>Recording of Consent</h3>
 <p>Carter, et al. (2021) note that the recording of consent in the context of online research can lead to varying challenges due to the process being entirely virtual. Following their arguments that written consent formats can be complicating, restrictive, and potentially introduce security concerns, the default format for seeking and recording consent for this study will be done verbally. However, if it is the preference of the participant to use a written consent form, the form will be made available to them.</p>
 
@@ -23,7 +21,7 @@ In order to limit the number of meetings required of participants, recording of 
 {% include feature/consent-table.html %}
 </div>
 <div class="vr"></div>
- <div class="col-md-4">
+<div class="p-2">
 
 <h3>Interviews</h3>
 
@@ -45,7 +43,6 @@ I am interested in investigating an aspect of people’s lives that can be quite
 
 {% include feature/interview-table.html %}
 
-</div>
 </div>
 </div>
 
