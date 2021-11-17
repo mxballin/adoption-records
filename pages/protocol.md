@@ -12,7 +12,7 @@ permalink: /protocol.html
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6 my-auto">
+        <div class="col-md-4">
 
 <h3>Recording of Consent</h3>
 <p>Carter, et al. (2021) note that the recording of consent in the context of online research can lead to varying challenges due to the process being entirely virtual. Following their arguments that written consent formats can be complicating, restrictive, and potentially introduce security concerns, the default format for seeking and recording consent for this study will be done verbally. However, if it is the preference of the participant to use a written consent form, the form will be made available to them.</p>
@@ -23,7 +23,7 @@ In order to limit the number of meetings required of participants, recording of 
 {% include feature/consent-table.html %}
 </div>
 <div class="vr"></div>
- <div class="col-md-6 my-auto">
+ <div class="col-md-4">
 
 <h3>Interviews</h3>
 
@@ -39,20 +39,15 @@ In order to limit the number of meetings required of participants, recording of 
 
 <p>In this element of the interview process, participants will be asked to respond to excerpts from these two authors and consider the similarities or differences of their experiences and thoughts.</p>
 
-</div>
-</div>
-</div>
-
 <h2>Distress Protocol</h2>
 
 I am interested in investigating an aspect of people’s lives that can be quite sensitive and presents the real possibility of making someone uncomfortable. While the purpose is liberatory, and to create a greater understanding of how archivists can address issues of alienation in the context of government record creation and access, I acknowledge that it is potentially emotionally charged subject matter that not everyone will be unaffected by, even if they are the type of person who has “come to terms” with their adoption. One way in which I hope to mitigate this is through the adaptation and adoption of a distress protocol for the interview process such as those proposed by Haigh & Witham (2015) . I will not have an extensive array of resources or professionals at my disposal or employ, but making sure that I provide adequate resources before and after the interview, as well as take care to be aware of when an interviewee needs a break and having a protocol for how that can happen over Zoom will be incredibly important steps towards making the interview space as safe as possible.
 
 {% include feature/interview-table.html %}
 
-<h2>Pre-Publication Participant Review</h2>
-
-Another step that I am interested in taking in order to best address and acknowledge the contributions and emotions of my interviewees is through the review of my interpretations of their contributions before submission. As Katherine Borland writes, “despite my confidence in the validity of my reading as a feminist scholar, personally I continue to be concerned about the potential emotional affect alternative readings of personal narratives may have on our living subjects.”  In order to ensure that I am not intentionally publishing something that a subject would find antithetical to their experience and perspective, I plan to offer that they be able to review and approve materials written about their story and experiences if they should so wish and to emphasize their ability to retract their consent (partially or fully) at any time.
-
+</div>
+</div>
+</div>
 
 References
 
