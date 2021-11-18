@@ -16,8 +16,7 @@ credits: true
 {% include feature/nav-menu.html sections="Land Acknowledgement;Terminology;About the Research Team;Acknowledgements;Technical Credits" %}
 
 ## Land Acknowledgement
-  
-<h4>Land Acknowledgements</h4>
+
 This research is being conducted as part of a graduate program at the University of British Columbia, which is located on the traditional, ancestral, and unceded territory of the xwməθkwəy̓əm (Musqueam) People.
 
 Records, archives, and transracial adoption have all played significant roles in the traumatization and colonization of First Nations, Metis, and Inuit communities in Canada. While I am not engaging with their stories directly in this work, I come to the table with a desire to conduct research that is decolonial in its theoretical basis and practice. I hope that this work, through preliminary in scope, will be for the benefit of all transracial, transnational adoptees, including Indigenous ones.
