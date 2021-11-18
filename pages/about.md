@@ -13,9 +13,9 @@ credits: true
     <li class="breadcrumb-item active" aria-current="page">About</li>
   </ol>
 </nav>
-{% include feature/nav-menu.html sections="About the Research Project;Terminology;About the Research Team;Acknowledgements;Technical Credits" %}
+{% include feature/nav-menu.html sections="Land Acknowledgement;Terminology;About the Research Team;Acknowledgements;Technical Credits" %}
 
-## About the Research Project
+## Land Acknowledgement
   
 <h4>Land Acknowledgements</h4>
 This research is being conducted as part of a graduate program at the University of British Columbia, which is located on the traditional, ancestral, and unceded territory of the xwməθkwəy̓əm (Musqueam) People.
