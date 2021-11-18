@@ -15,9 +15,6 @@ permalink: /protocol.html
 In order to limit the number of meetings required of participants, recording of consent will by default occur at the start of the first scheduled interview session.  However, if it is the preference of the participant to have a separate introductory session that will allow for real-time addressal of questions and concerns, this option will be made available to them.
 
 {% include feature/consent-table.html %}
-</div>
-<div class="vr"></div>
-<div class="p-2">
 
 <h2>Interviews</h2>
 
