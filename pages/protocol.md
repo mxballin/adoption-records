@@ -36,7 +36,7 @@ I am interested in investigating an aspect of people’s lives that can be quite
 
 {% include feature/interview-table.html %}
 
-References
+<h2>References</h2>
 
 Carter, .M., Shih, P., Williams, J. et al. Conducting Qualitative Research Online: Challenges and Solutions. Patient (2021). https://doi.org/10.1007/s40271-021-00528-w
 
