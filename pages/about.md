@@ -13,7 +13,7 @@ credits: true
     <li class="breadcrumb-item active" aria-current="page">About</li>
   </ol>
 </nav>
-{% include feature/nav-menu.html sections="Land Acknowledgement;Terminology;About the Research Team;Acknowledgements;Technical Credits" %}
+{% include feature/nav-menu.html sections="Land Acknowledgement;About the Research Team;Acknowledgements;Technical Credits" %}
 
 ## Land Acknowledgement
 
