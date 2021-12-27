@@ -66,11 +66,13 @@ While the timestamps have now been separated from the text of the transcript, th
 
 ###### Step 4.
 
-Just as the AI is not perfect, the script and OpenRefine are not perfect in making it possible to isolate lines as lines; for example, the VTT file contains designated row numbers that, in the conversion, are treated as text. In order to remove these lines from the timestamp data (they also, frustratingly, appear in the text, but I have plans to use R's ability to remove all numbers from a character vector later down the road), I again split the timestamp column, this time using a space as the delimiter (thankfully there isn't anything else that uses it in that chunk of the data!).
+Just as the AI is not perfect, the script and OpenRefine are not perfect in making it possible to isolate lines as lines; for example, the VTT file contains designated caption identifier numbers that, in the conversion, are treated as text. Sometimes these numbers get grouped together with the timestamp and sometimes they get grouped with the text, so to address this, I performed two separate actions:
+1. I again split the timestamp column, this time using a single space as the delimiter (thankfully there isn't anything else that uses it in that chunk of the data!).
+2. I ran the following text transform expression on the text column: `replace(value,/\d/,"")`.
 
 ###### Step 5.
 
-This split helps to isolate the starting timestamps, but it still creates a bit of a mess because everything is in multiple columns. The best thing about OpenRefine in this process is the ability to use facets to manipulate and clean the data. In this case, it is possible to facet the relevant columns by whether or not they are a numeric value, clear out the numeric 'row' values, and transpose the actual time stamp into the correct column using the tools transform functions and a GREL command (cells["secondcolumnname"].value) that identifies the value of the relevant cell.
+The split of the timestamp column helps to isolate the starting timestamps, but it still creates a bit of a mess because everything is in multiple columns. The best thing about OpenRefine in this process is the ability to use facets to manipulate and clean the data. In this case, it is possible to facet the relevant columns by whether or not they are a numeric value, clear out the numeric 'row' values, and transpose the actual time stamp into the correct column using the tools transform functions and a GREL command (cells["secondcolumnname"].value) that identifies the value of the relevant cell.
 
 ###### Step 6.
 Because of the way the columns were split, there won't be a text row that has a timestamp attached to it (and also no timestamp row that has text). In order to assign timestamps to text rows, you can use the OpenRefine fill down command to populate any cells that don't have a timestamp value in them. It is then possible to facet by whether or not the 'text' column has content and remove those that don't.
@@ -79,6 +81,14 @@ Because of the way the columns were split, there won't be a text row that has a 
 The next step for cleaning the data is a little trickier. Because of the way VTTs are built, multiple sentences get split across multiple rows and sometimes even a single sentence will be multiple rows. For the purposes of coding, it is far more useful to have the transcripts chunked into larger pieces that reflect trains of thought. This isn't something that can be done just by asking a program to combine rows. Instead, I found two ways to address this need. The first is rather tiresome, which is just to copy and paste the relevant text from cell to cell, which requires clicking a lot of 'edit' buttons because of how OpenRefine is built. The slightly faster way is to export the document to a spreadsheet editor and make use of a  `CONCAT` function that will paste multiple cell contents together, but still requires a fair amount of lot of copy and pasting, as well as selecting and deleting action in order to remove the rows that are no longer necessary.
     
     NOTE: While faster, the second option is still not ideal because it means removing the file from OpenRefine and needing to re-enter it in order finish cleaning the document. This ends up creating a whole new document because as as far as I am aware, OR doesn't have an option for versioning in such a way that you can make changes outside of OR and then update the file within the program.
+
+Process:
+
+1. CONCATENATE all cells corresponding to a single speaker (any time there is a value in the speaker column)
+2. Re-introduce the data to OpenRefine
+3. Facet for empty speaker cells (since any text from one that was empty is now concatenated) and delete those cells
+4. Facet for empty cells in the concatenated text column and fill them with the value from the original text column using the same GREL as before (accounts for single line responses)
+5. Delete the original text column
 
 ###### Step 8.
 
