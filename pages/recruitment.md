@@ -1,12 +1,21 @@
 ---
-title: Participant Recruitment
+title: Project Updates
 layout: page
-permalink: /recruitment.html
+permalink: /updates.html
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
+# December 26, 2021
+<hr/>
+I was blown away by the response that I received for the project from the various avenues that I recruited through and have had the opportunity to bring on 12 participants for the research.
 
-We are currently in the recruitment phase of the study!
+Having conducted a bulk of the interviews, my primary task now is to determine the best way to transcript and code them. It's been great to talk to several of the participants about this as they had some tips and suggestions based on their own experiences with conducting research.
+
+As a way of documenting my workflow processes for myself and to also make them available as a suggestion for others who are trying to navigate virtually conducted qualitative interviews, I have decided to create a page where I can share information about the technical side of the transcription, cleaning, and coding of the data.
+
+# November 18, 2021
+<hr/>
+Recruitment for the study opened on November 18th. <b>As of December 2021, it is no longer open.</b>
 
 As this study is for a Master's thesis, there are limits to its scope and we are unfortunately not able to include the incredible diversity of adoptee voices that we know are out there and would love to engage with. We are specifically looking for English-speaking Chinese & Korean transracial, transnational adoptees to participate.
 
