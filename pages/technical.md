@@ -6,6 +6,17 @@ permalink: /technical.html
 # Look in _includes/feature for options to easily add features to the page
 ---
 
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Transcript Cleaning</h5>
+    <h6 class="card-subtitle mb-2 text-muted">From VTT to CSV</h6>
+    <p class="card-text">A proposed workflow for converting and cleaning files captured by Zoom into coding-ready transcripts</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+    a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
 # Transcript Cleaning
 
 One of the first hurdles that I have come across to starting my data exploration has been the creation and management of transcripts. Because interviews are being conducted and captured through Zoom, I am able to take advantage of their live captioning feature that is driven by Otter.ai and results in the creation of a VTT file.
