@@ -14,6 +14,6 @@ permalink: /technical.html
     <h5 class="card-title">Transcript Cleaning</h5>
     <h6 class="card-subtitle mb-2 text-muted">From VTT to CSV</h6>
     <p class="card-text">A proposed workflow for converting and cleaning files captured by Zoom into coding-ready transcripts.</p>
-    <a href="adoption-records.mxballin.com/technical/transcriptcleaning.html" class="btn btn-primary">Read on</a>
+    <a href="/technical/transcriptcleaning.html" class="btn btn-outline-secondary">Read on</a>
   </div>
 </div>
