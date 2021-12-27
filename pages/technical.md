@@ -1,5 +1,5 @@
 ---
-title: Technical Workflows
+title: Technical Musings
 layout: page
 permalink: /technical.html
 # Edit the markdown on in this file to describe your collection
