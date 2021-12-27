@@ -7,6 +7,9 @@ permalink: /technical.html
 ---
 
 <div class="card" style="width: 18rem;">
+  <div class="card-header">
+    December 26, 2021
+  </div>
   <div class="card-body">
     <h5 class="card-title">Transcript Cleaning</h5>
     <h6 class="card-subtitle mb-2 text-muted">From VTT to CSV</h6>
