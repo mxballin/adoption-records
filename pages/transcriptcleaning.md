@@ -52,27 +52,34 @@ However, OpenRefine does have its own limitations, and so in order to be able to
 
 After converting a from VTT to TXT, I directly imported the TXT file into OpenRefine. Because the file was tab separated to an extent, the import is just clean enough to start using OpenRefines splitting and separation functions.
 
-###### Step 1.
+###### Step 1. Split text from timestamps
 
 Start by splitting the imported data on a regex that captures the "SPEAKER:" element of the transcripts — ` (.*): `. This will help to create a split in the information provided by the columns into a text column and a timestamp column. It does however remove the information about the speaker from the data.
 
-###### Step 2.
+###### Step 2. Recapture speaker metadata
 
 To recapture this information into a useable column, you can then create a new column based on the original text that uses a jython `ifelse` clause to identify and return the various possible speakers (the general format of the clause being if "NAME" in value: return "NAME"; this is also useful for de-identification as it allows you to supply the de-identifier as the 'return' value). As mentioned above, the AI isn't perfect at assigning this, so you will need to do some manual checking.
 
-###### Step 3.
+###### Step 3. Isolate Timestamps
 
 While the timestamps have now been separated from the text of the transcript, they are still in the time range form utilized by VTT files (i.e. 00:00:58.050 --> 00:01:09.660). Since the range isn't particularly important for coding purposes, the starting timestamp can be isolated by splitting the values using '-->' as the delimiter.
 
-###### Step 4.
+###### Step 4. Remove Caption Numbers
 
-Just as the AI is not perfect, the script and OpenRefine are not perfect in making it possible to isolate lines as lines; for example, the VTT file contains designated caption identifier numbers that, in the conversion, are treated as text. Sometimes these numbers get grouped together with the timestamp and sometimes they get grouped with the text, so to address this, I performed two separate actions:
-1. I again split the timestamp column, this time using a single space as the delimiter (thankfully there isn't anything else that uses it in that chunk of the data!).
+Just as the AI is not perfect, the script and OpenRefine are not perfect in making it possible to isolate lines as lines; for example, the VTT file contains designated caption identifier numbers that, in the conversion, are treated as text. Sometimes these numbers get assigned their own row, sometimes they get grouped together with the timestamp, and sometimes they get grouped with the text, so to address this, I performed a variety of actions to isolate and remove these numbers:
+
+For instances where the numbers were assigned their own row, move on to the next step, faceting by blank timestamp and text columns.
+
+For those that are within the same cell as a necessary timestamp:
+I again split the timestamp column, this time using a single space as the delimiter (thankfully there isn't anything else that uses it in that chunk of the data!).
+
+For those that are within the same cell as text:
 2. I ran the following text transform expression on the text column: `replace(value,/\d/,"")`.
+
 
 ###### Step 5.
 
-The split of the timestamp column helps to isolate the starting timestamps, but it still creates a bit of a mess because everything is in multiple columns. The best thing about OpenRefine in this process is the ability to use facets to manipulate and clean the data. In this case, it is possible to facet the relevant columns by whether or not they are a numeric value, clear out the numeric 'row' values, and transpose the actual time stamp into the correct column using the tools transform functions and a GREL command (cells["secondcolumnname"].value) that identifies the value of the relevant cell.
+The split of the timestamp column helps to isolate the starting timestamps, but it still creates a bit of a mess because everything is in multiple columns. The best thing about OpenRefine in this process is the ability to use facets to manipulate and clean the data. In this case, it is possible to facet the relevant columns by whether or not they are a numeric value, clear out the numeric 'row' values, and transpose the actual time stamp into the correct column using the tools transform functions and a GREL command (cells['secondcolumnname'].value) that identifies the value of the relevant cell.
 
 ###### Step 6.
 Because of the way the columns were split, there won't be a text row that has a timestamp attached to it (and also no timestamp row that has text). In order to assign timestamps to text rows, you can use the OpenRefine fill down command to populate any cells that don't have a timestamp value in them. It is then possible to facet by whether or not the 'text' column has content and remove those that don't.
