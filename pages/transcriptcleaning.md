@@ -97,7 +97,7 @@ Process:
 
 ###### Step 8. Join speaker attribution to text
 
-The last step that I perform in OpenRefine is potentially an optional one depending on where you plan to use your data next. For me, it is important at this point to reduce the number of columns that I have to basically just the timestamp and text. In order to retain the speaker attribution, I have chosen to join the speaker column to the text column. If you were to be using a visualization tool or other software where the speaker would remain separate, other options could be to blank down the speaker column but leave it as it is or to leave it entirely intact.
+The last step that one might perform in OpenRefine is an optional one depending on where you plan to use your data next. For me, it is important at this point to retain a separate 'speaker' column because of the program that I am using for qualitative analysis. However, this is something that you could join with the interview text should that be better for your purposes.
 
 ### Conclusion 
 
